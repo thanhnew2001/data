@@ -2,7 +2,7 @@ import requests
 import json
 
 # Replace 'your-api-key' with your actual OpenAI API key
-api_key="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"
+api_key="sk-"
 
 
 headers = {

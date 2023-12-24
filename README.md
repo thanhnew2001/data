@@ -1,0 +1,10 @@
+- csv some data downloaded by yahoo finance
+- crawlall11.py: get all the news from 1997
+- merge.py: merge all the csv files in CRAW folder
+- getlines.py: get all lines in the merged csv files to send to OpenAI
+- openai.py: get all lines to prepare a prompt, send the prompt to OpenAI to prepare a longer essay
+- ? generate prediction text for fine-tuning: each training rows shall contain: context + prediciton
+- Maybe fine-tuned data can be 1 month, 2 weeks, 1 weeks, and 3 days for various predicion
+- To diversify training dataset, 1 month window can be shifted by 3 days to generate more data
+- Inference (real prediciton): simply provide all the latest news for 30 days, then prompt the model to provide prediction.
+- Prediction can be 30 days, 2 weeks, 1 week, and 3 days.
